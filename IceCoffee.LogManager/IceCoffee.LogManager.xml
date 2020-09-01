@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IceCoffee.LogManager</name>
+    </assembly>
+    <members>
+        <member name="T:IceCoffee.LogManager.LogRecordedEventHandler">
+            <summary>
+            日志记录事件处理器
+            </summary>
+        </member>
+        <member name="E:IceCoffee.LogManager.Log.LogRecorded">
+            <summary>
+            日志被记录
+            </summary>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.OverrideConfiguration(NLog.Config.LoggingConfiguration)">
+            <summary>
+            覆盖默认配置文件
+            </summary>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.OverrideConfiguration(System.String)">
+            <summary>
+            覆盖默认配置文件路径
+            </summary>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Trace(System.String)">
+            <summary>
+            追踪信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Trace(System.Exception,System.String)">
+            <summary>
+            追踪信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Debug(System.String)">
+            <summary>
+            调试信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Debug(System.Exception,System.String)">
+            <summary>
+            调试信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Info(System.String)">
+            <summary>
+            状态信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Info(System.String,System.Object[])">
+            <summary>
+            状态信息
+            </summary>
+            <param name="message"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Info(System.Exception,System.String)">
+            <summary>
+            状态信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Warn(System.String)">
+            <summary>
+            警告信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Warn(System.Exception,System.String)">
+            <summary>
+            警告信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Error(System.String)">
+            <summary>
+            普通错误信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Error(System.String,System.Object[])">
+            <summary>
+            普通错误信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Error(System.Exception)">
+            <summary>
+            普通错误信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Error(System.Exception,System.String)">
+            <summary>
+            普通错误信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Error(System.Exception,System.String,System.Object[])">
+            <summary>
+            普通错误信息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Fatal(System.String)">
+            <summary>
+            将导致程序退出的严重错误
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Fatal(System.Exception)">
+            <summary>
+            将导致程序退出的严重错误
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:IceCoffee.LogManager.Log.Fatal(System.Exception,System.String)">
+            <summary>
+            将导致程序退出的严重错误
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:IceCoffee.LogManager.LogLevel">
+            <summary>
+            日志等级
+            </summary>
+        </member>
+        <member name="F:IceCoffee.LogManager.LogLevel.Trace">
+            <summary>
+            追踪信息
+            </summary>
+        </member>
+        <member name="F:IceCoffee.LogManager.LogLevel.Debug">
+            <summary>
+            调试信息
+            </summary>
+        </member>
+        <member name="F:IceCoffee.LogManager.LogLevel.Info">
+            <summary>
+            普通信息
+            </summary>
+        </member>
+        <member name="F:IceCoffee.LogManager.LogLevel.Warn">
+            <summary>
+            警告信息
+            </summary>
+        </member>
+        <member name="F:IceCoffee.LogManager.LogLevel.Error">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="F:IceCoffee.LogManager.LogLevel.Fatal">
+            <summary>
+            严重错误
+            </summary>
+        </member>
+    </members>
+</doc>
